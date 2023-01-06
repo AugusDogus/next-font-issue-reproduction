@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Uncomment this to apply the font to the entire page */
+/* body {
+  font-family: var(--wingdings-font);
+} */

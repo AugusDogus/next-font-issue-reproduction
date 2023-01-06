@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mono: ['var(--font-wingdings)', ...fontFamily.mono],
+        wingdings: ['var(--font-wingdings)'],
       },
     },
   },

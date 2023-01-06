@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
         <div className="container flex flex-row items-center justify-center gap-12 px-4 py-16 ">
-          <h1 className="text-4xl font-bold text-white">Hello</h1>
+          <h1 className="text-4xl font-bold text-white font-wingdings">Hello</h1>
 
           <Tooltip.Provider delayDuration={0}>
             <Tooltip.Root>
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
                 <Tooltip.Content sideOffset={15}>
                   <div className="w-[20px] h-[20px] border-zinc-500 border-r border-b rotate-45 absolute bottom-[-10px] left-0 right-0 m-auto bg-white z-10" />
                   <div className="rounded-md p-4 bg-white border-zinc-500 border">
-                    <p className="max-w-64 w-64 font-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p className="max-w-64 w-64 font-wingdings">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   </div>
                 </Tooltip.Content>
               </Tooltip.Portal>
